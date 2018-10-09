@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="ExamenSegundoParcial.InformaciónPersonal"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ExamenSegundoParcial"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="600">
+    <StackPanel Background="White">
+        <TextBlock FontSize="15" Name="lblNombre">Nombre:</TextBlock>
+        <TextBox HorizontalAlignment="Left" Width="200" Name="txtNombre"></TextBox>
+        <TextBlock FontSize="15" Name="lblApellidoP">Apellido Paterno:</TextBlock>
+        <TextBox HorizontalAlignment="Left" Width="200" Name="txtApellidoP"></TextBox>
+        <TextBlock FontSize="15" Name="lblApellidoM">Apellido Materno:</TextBlock>
+        <TextBox HorizontalAlignment="Left" Width="200" Name="txtApellidoM"></TextBox>
+        <TextBlock FontSize="15" Name="lblEdad">Edad:</TextBlock>
+        <TextBox HorizontalAlignment="Left" Width="200" Name="txtEdad"></TextBox>
+        <StackPanel Margin="0,10,0,0"></StackPanel>
+        
+    </StackPanel>
+</UserControl>
